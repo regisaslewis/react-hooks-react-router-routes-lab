@@ -2,7 +2,8 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 function NavBar() {
-  return <div>
+  return (
+  <div  className="navbar">
     <NavLink to="/" exact>
       Home
     </NavLink>
@@ -15,7 +16,7 @@ function NavBar() {
     <NavLink to="/actors" exact>
       Actors
     </NavLink>
-  </div>;
+  </div>)
 }
 
 export default NavBar;
